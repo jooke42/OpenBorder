@@ -13,5 +13,88 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f52a06f5-bd05-488d-a7cb-6782787f22b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenBorder.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\texture.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\texture.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\cubemaps.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\cubemaps.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lamp.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\lamp.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\multiple_lights.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\multiple_lights.vs">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
